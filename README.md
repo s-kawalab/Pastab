@@ -1,182 +1,207 @@
+<div align="center">
+
+<img src="icons/icon128.png" alt="Pastab" width="120" height="120">
+
 # Pastab
 
-**Bulk Copy & Paste Tab URLs** | **タブURL一括コピー＆ペースト**
+### Bulk Copy & Paste Tab URLs in One Click
 
-A simple Chrome extension to copy all your open tab URLs at once and paste URLs to open multiple tabs.
+**Copy all your tabs. Open them anywhere.**
 
-開いているタブのURLをまとめてコピー・ペーストできるシンプルなChrome拡張機能です。
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](#installation)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](#)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-coming%20soon-green.svg)](#installation)
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Privacy](#privacy)
+
+</div>
 
 ---
 
-## Features / 機能
+## Why Pastab?
 
-### Copy / コピー
+Ever needed to **save all your browser tabs** and reopen them later? Or **share multiple links** with a colleague? Pastab makes it effortless.
+
+- **One-click copy** — Grab all tab URLs instantly
+- **One-click paste** — Open multiple URLs at once
+- **Multiple formats** — Text, Markdown, HTML, JSON, or custom templates
+- **Keyboard shortcuts** — `Alt+C` to copy, `Alt+V` to paste
+- **100% Private** — No data leaves your browser
+
+---
+
+## Features
+
+<table>
+<tr>
+<td width="50%">
+
+### Copy
+
 - Copy all open tab URLs with one click
-- Multiple output formats:
-  - **Text** - URLs only
-  - **Text + Title** - Title and URL
-  - **Markdown** - `[Title](URL)` format
-  - **HTML** - `<a href>` links
-  - **JSON** - Developer-friendly format
-  - **Custom** - Your own template with `$url`, `$title`, `$date`
+- Choose from multiple output formats:
+  - **Text** — URLs only
+  - **Text + Title** — Title and URL
+  - **Markdown** — `[Title](URL)`
+  - **HTML** — `<a href>` links
+  - **JSON** — Developer-friendly
+  - **Custom** — Your own template
 
-### Paste / ペースト
-- Paste URLs from clipboard to open multiple tabs at once
-- Automatically extracts URLs from any text
+</td>
+<td width="50%">
 
-### Options / オプション
-- Copy only highlighted (selected) tabs
-- Copy tabs from all windows
-- Keyboard shortcuts (Alt+C / Alt+V)
-- Notification on/off
+### Paste
+
+- Paste URLs from clipboard
+- Opens multiple tabs instantly
+- Auto-extracts URLs from any text
+- Works with any text format
+
+</td>
+</tr>
+</table>
+
+### Options
+
+| Setting | Description |
+|---------|-------------|
+| Selected tabs only | Copy only highlighted tabs |
+| All windows | Copy tabs from all browser windows |
+| Keyboard shortcuts | Customizable hotkeys |
+| Notifications | Toggle success messages |
 
 ---
 
-## Installation / インストール
+## Installation
 
-### Chrome Web Store (Recommended)
+### Chrome Web Store
+
 Coming soon...
 
-<!--
-[![Available in the Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/pastab/YOUR_EXTENSION_ID)
--->
+### Manual Installation
 
-### Manual Installation / 手動インストール
+```bash
+# Clone the repository
+git clone https://github.com/s-kawalab/Pastab.git
+```
 
-1. Download or clone this repository
-   ```bash
-   git clone https://github.com/s-kawalab/Pastab.git
-   ```
-
-2. Open Chrome and navigate to `chrome://extensions/`
-
-3. Enable **Developer mode** (toggle in the top right)
-
-4. Click **Load unpacked** and select the `Pastab` folder
+1. Open `chrome://extensions/`
+2. Enable **Developer mode**
+3. Click **Load unpacked**
+4. Select the `Pastab` folder
 
 ---
 
-## Usage / 使い方
+## Usage
 
-### Basic Usage
+### Quick Start
 
-1. Click the Pastab icon in the toolbar
-2. Select your preferred format
-3. Click **Copy** to copy all tab URLs
-4. Click **Paste** to open URLs from clipboard
+| Action | Method |
+|--------|--------|
+| Copy all tabs | Click **Copy** or press `Alt+C` |
+| Paste URLs | Click **Paste** or press `Alt+V` |
+| Change format | Select from dropdown |
+| Settings | Click the gear icon |
 
 ### Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Alt+C` | Copy all tab URLs |
-| `Alt+V` | Paste URLs (open in new tabs) |
+| `Alt+V` | Open URLs from clipboard |
 
-You can customize shortcuts at `chrome://extensions/shortcuts`
-
----
-
-## Screenshots / スクリーンショット
-
-<!-- Add screenshots here -->
-Coming soon...
+Customize at `chrome://extensions/shortcuts`
 
 ---
 
-## Permissions / 権限
+## Privacy
 
-| Permission | Purpose / 目的 |
-|------------|----------------|
-| `tabs` | Access tab URLs and titles / タブのURL・タイトルを取得 |
-| `clipboardRead` | Read URLs from clipboard / クリップボードからURL読み取り |
-| `clipboardWrite` | Copy URLs to clipboard / クリップボードにコピー |
-| `storage` | Save user preferences / 設定を保存 |
-| `notifications` | Show copy/paste notifications / 通知を表示 |
-| `offscreen` | Clipboard operations in background / バックグラウンドでのクリップボード操作 |
+<table>
+<tr>
+<td>
+
+**Your data stays with you.**
+
+Pastab processes everything locally. No servers, no tracking, no data collection.
+
+</td>
+<td>
+
+| | |
+|---|---|
+| Data collection | None |
+| External servers | None |
+| Analytics | None |
+| Ads | None |
+
+</td>
+</tr>
+</table>
+
+[View Privacy Policy](https://s-kawalab.github.io/Pastab/privacy-policy.html)
 
 ---
 
-## Privacy / プライバシー
+## Permissions
 
-Pastab respects your privacy:
-
-- **No data collection** - We don't collect any personal data
-- **No external servers** - All data stays in your browser
-- **No tracking** - No analytics or tracking tools
-- **No ads** - Completely ad-free
-
-See [Privacy Policy](privacy-policy.html) for details.
+| Permission | Why it's needed |
+|------------|-----------------|
+| `tabs` | Read tab URLs and titles |
+| `clipboardRead` | Paste URLs from clipboard |
+| `clipboardWrite` | Copy URLs to clipboard |
+| `storage` | Save your preferences |
+| `notifications` | Show success messages |
+| `offscreen` | Clipboard operations |
 
 ---
 
-## Development / 開発
+## Development
 
-### Project Structure
+<details>
+<summary><b>Project Structure</b></summary>
 
 ```
 Pastab/
-├── manifest.json          # Extension manifest
-├── popup.html             # Popup UI
-├── options.html           # Settings page
-├── offscreen.html         # Clipboard operations
+├── manifest.json
+├── popup.html / options.html
 ├── src/
-│   ├── background.js      # Service worker
-│   ├── popup.js           # Popup logic
-│   ├── options.js         # Settings logic
-│   ├── offscreen.js       # Clipboard handler
+│   ├── background.js
+│   ├── popup.js / options.js
 │   ├── styles/
-│   │   ├── popup.css
-│   │   └── options.css
 │   └── utils/
-│       ├── storage.js     # Storage utilities
-│       ├── formatter.js   # URL formatting
-│       └── i18n.js        # Internationalization
 ├── _locales/
-│   ├── en/messages.json   # English
-│   └── ja/messages.json   # Japanese
-├── icons/
-│   └── icon*.png
-├── LICENSE
-├── privacy-policy.html
-└── README.md
+│   ├── en/
+│   └── ja/
+└── icons/
 ```
 
-### Building
+</details>
 
-No build step required. The extension can be loaded directly in Chrome.
-
-### Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+<details>
+<summary><b>Contributing</b></summary>
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
 5. Open a Pull Request
 
----
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## License / ライセンス
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+</details>
 
 ---
 
-## Author / 作者
+<div align="center">
 
-**Kawalab**
+## License
+
+MIT License © 2026 [Kawalab](https://github.com/s-kawalab)
 
 ---
 
-## Changelog / 変更履歴
+**Made with ❤️ for tab hoarders everywhere**
 
-### v1.0.0 (2026-01)
-- Initial release
-- Basic copy/paste functionality
-- Multiple output formats
-- Keyboard shortcuts
-- i18n support (English/Japanese)
+[Report Bug](https://github.com/s-kawalab/Pastab/issues) • [Request Feature](https://github.com/s-kawalab/Pastab/issues)
+
+</div>
