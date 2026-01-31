@@ -1,0 +1,288 @@
+{
+  "extensionName": {
+    "message": "Pastab - Bulk Copy & Paste Tab URLs",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Copy and paste all your open tab URLs at once",
+    "description": "Extension description"
+  },
+  "commandCopyUrls": {
+    "message": "Copy all tab URLs",
+    "description": "Copy URLs command description"
+  },
+  "commandPasteUrls": {
+    "message": "Open URLs in new tabs",
+    "description": "Paste URLs command description"
+  },
+  "popupTitle": {
+    "message": "Pastab",
+    "description": "Popup title"
+  },
+  "tabCount": {
+    "message": "$COUNT$ tabs",
+    "description": "Tab count display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "copyButton": {
+    "message": "Copy",
+    "description": "Copy button text"
+  },
+  "pasteButton": {
+    "message": "Paste",
+    "description": "Paste button text"
+  },
+  "formatLabel": {
+    "message": "Format:",
+    "description": "Format label"
+  },
+  "formatText": {
+    "message": "Text",
+    "description": "Text format option"
+  },
+  "formatTextTitle": {
+    "message": "Text + Title",
+    "description": "Text with title format option"
+  },
+  "formatMarkdown": {
+    "message": "Markdown",
+    "description": "Markdown format option"
+  },
+  "formatHtml": {
+    "message": "HTML",
+    "description": "HTML format option"
+  },
+  "formatJson": {
+    "message": "JSON",
+    "description": "JSON format option"
+  },
+  "formatCustom": {
+    "message": "Custom",
+    "description": "Custom format option"
+  },
+  "formatTextFull": {
+    "message": "Text (URL only)",
+    "description": "Text format full"
+  },
+  "formatTextTitleFull": {
+    "message": "Text (Title + URL)",
+    "description": "Text with title format full"
+  },
+  "formatHtmlFull": {
+    "message": "HTML (Links)",
+    "description": "HTML format full"
+  },
+  "formatJsonFull": {
+    "message": "JSON (Developer)",
+    "description": "JSON format full"
+  },
+  "formatMarkdownFull": {
+    "message": "Markdown (List)",
+    "description": "Markdown format full"
+  },
+  "optionsSettings": {
+    "message": "Settings",
+    "description": "Settings link text"
+  },
+  "optionsTitle": {
+    "message": "Pastab Settings",
+    "description": "Options page title"
+  },
+  "optionsDefaultAction": {
+    "message": "Default Action",
+    "description": "Default action section"
+  },
+  "optionsDefaultActionDesc": {
+    "message": "Action when clicking the extension icon",
+    "description": "Default action description"
+  },
+  "optionsShowMenu": {
+    "message": "Show Menu",
+    "description": "Show menu option"
+  },
+  "optionsImmediateCopy": {
+    "message": "Copy Immediately",
+    "description": "Immediate copy option"
+  },
+  "optionsImmediatePaste": {
+    "message": "Paste Immediately",
+    "description": "Immediate paste option"
+  },
+  "optionsCopySettings": {
+    "message": "Copy Settings",
+    "description": "Copy settings section"
+  },
+  "optionsHighlightedOnly": {
+    "message": "Copy highlighted tabs only",
+    "description": "Copy highlighted tabs only option"
+  },
+  "optionsHighlightedOnlyHelp": {
+    "message": "Hold Ctrl/Cmd and click tabs to select",
+    "description": "Highlighted only help text"
+  },
+  "optionsAllWindows": {
+    "message": "Include all windows",
+    "description": "Include all windows option"
+  },
+  "optionsAllWindowsHelp": {
+    "message": "Include tabs from all Chrome windows",
+    "description": "All windows help text"
+  },
+  "optionsDefaultFormat": {
+    "message": "Default Format",
+    "description": "Default format section"
+  },
+  "optionsDefaultFormatDesc": {
+    "message": "Format when copying URLs",
+    "description": "Default format description"
+  },
+  "optionsCustomTemplate": {
+    "message": "Custom Template",
+    "description": "Custom template section"
+  },
+  "optionsCustomTemplateDesc": {
+    "message": "Variables: $url, $title, $date",
+    "description": "Custom template description"
+  },
+  "optionsPreview": {
+    "message": "Preview:",
+    "description": "Preview label"
+  },
+  "optionsPreviewTitle": {
+    "message": "Sample Page",
+    "description": "Preview sample title"
+  },
+  "optionsNotificationsTitle": {
+    "message": "Notifications",
+    "description": "Notifications section title"
+  },
+  "optionsNotifications": {
+    "message": "Show notifications on copy/paste",
+    "description": "Show notifications option"
+  },
+  "optionsShortcuts": {
+    "message": "Keyboard Shortcuts",
+    "description": "Shortcuts section"
+  },
+  "optionsShortcutsDesc": {
+    "message": "Customize in Chrome settings",
+    "description": "Shortcuts description"
+  },
+  "optionsShortcutCopy": {
+    "message": "Copy URLs",
+    "description": "Copy shortcut description"
+  },
+  "optionsShortcutPaste": {
+    "message": "Paste URLs (open in new tabs)",
+    "description": "Paste shortcut description"
+  },
+  "optionsOpenShortcuts": {
+    "message": "Open Shortcut Settings",
+    "description": "Open shortcuts button"
+  },
+  "optionsDataManagement": {
+    "message": "Data Management",
+    "description": "Data management section"
+  },
+  "optionsDataManagementDesc": {
+    "message": "Manage settings data",
+    "description": "Data management description"
+  },
+  "optionsStorageChecking": {
+    "message": "Checking storage status...",
+    "description": "Storage checking message"
+  },
+  "optionsStorageHealthy": {
+    "message": "Storage is healthy (sync + local)",
+    "description": "Storage healthy message"
+  },
+  "optionsStoragePartial": {
+    "message": "Only partial storage available ($1)",
+    "description": "Storage partial message"
+  },
+  "optionsStorageError": {
+    "message": "Storage unavailable - settings may not be saved",
+    "description": "Storage error message"
+  },
+  "optionsReset": {
+    "message": "Reset Settings",
+    "description": "Reset button"
+  },
+  "optionsResetConfirm": {
+    "message": "Reset all settings to default?",
+    "description": "Reset confirmation"
+  },
+  "optionsResetDone": {
+    "message": "Settings reset",
+    "description": "Reset done message"
+  },
+  "optionsSaved": {
+    "message": "Settings saved",
+    "description": "Settings saved message"
+  },
+  "optionsSaveFailed": {
+    "message": "Failed to save settings",
+    "description": "Settings save failed message"
+  },
+  "notificationNoTabs": {
+    "message": "No tabs to copy",
+    "description": "No tabs to copy"
+  },
+  "notificationCopied": {
+    "message": "Copied $1 URLs",
+    "description": "URLs copied notification"
+  },
+  "notificationCopyFailed": {
+    "message": "Copy failed",
+    "description": "Copy failed notification"
+  },
+  "notificationClipboardEmpty": {
+    "message": "Clipboard is empty",
+    "description": "Clipboard empty notification"
+  },
+  "notificationNoUrls": {
+    "message": "No URLs found",
+    "description": "No URLs found message"
+  },
+  "notificationOpened": {
+    "message": "Opened $1 tabs",
+    "description": "Tabs opened notification"
+  },
+  "notificationPasteFailed": {
+    "message": "Paste failed",
+    "description": "Paste failed notification"
+  },
+  "notificationCopyTitle": {
+    "message": "Pastab",
+    "description": "Notification title for copy"
+  },
+  "notificationCopyMessage": {
+    "message": "Copied $COUNT$ URLs",
+    "description": "Notification message for copy",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "notificationPasteTitle": {
+    "message": "Pastab",
+    "description": "Notification title for paste"
+  },
+  "notificationPasteMessage": {
+    "message": "Opened $COUNT$ URLs",
+    "description": "Notification message for paste",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  }
+}

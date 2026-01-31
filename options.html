@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="optionsTitle">Pastab Settings</title>
+  <link rel="stylesheet" href="src/styles/options.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title" data-i18n="optionsTitle">Pastab Settings</h1>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsDefaultAction">Default Action</h2>
+        <p class="section-desc" data-i18n="optionsDefaultActionDesc">Action when clicking the extension icon</p>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="defaultAction" value="menu">
+            <span data-i18n="optionsShowMenu">Show Menu</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="defaultAction" value="copy">
+            <span data-i18n="optionsImmediateCopy">Copy Immediately</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="defaultAction" value="paste">
+            <span data-i18n="optionsImmediatePaste">Paste Immediately</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsDefaultFormat">Default Format</h2>
+        <p class="section-desc" data-i18n="optionsDefaultFormatDesc">Format when copying URLs</p>
+        <select class="select" id="defaultFormat">
+          <option value="text" data-i18n="formatTextFull">Text (URL only)</option>
+          <option value="text-title" data-i18n="formatTextTitleFull">Text (Title + URL)</option>
+          <option value="html" data-i18n="formatHtmlFull">HTML (Links)</option>
+          <option value="json" data-i18n="formatJsonFull">JSON (Developer)</option>
+          <option value="markdown" data-i18n="formatMarkdownFull">Markdown (List)</option>
+          <option value="custom" data-i18n="formatCustom">Custom</option>
+        </select>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsCustomTemplate">Custom Template</h2>
+        <p class="section-desc" data-i18n="optionsCustomTemplateDesc">Variables: $url, $title, $date</p>
+        <input type="text" class="input" id="customTemplate" placeholder="$title - $url">
+        <div class="preview">
+          <strong data-i18n="optionsPreview">Preview:</strong>
+          <code id="templatePreview">example.com</code>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsCopySettings">Copy Settings</h2>
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="copyHighlightedOnly">
+            <span data-i18n="optionsHighlightedOnly">Copy highlighted tabs only</span>
+          </label>
+          <p class="option-help" data-i18n="optionsHighlightedOnlyHelp">Hold Ctrl/Cmd and click tabs to select</p>
+          <label class="checkbox-label">
+            <input type="checkbox" id="copyAllWindows">
+            <span data-i18n="optionsAllWindows">Include all windows</span>
+          </label>
+          <p class="option-help" data-i18n="optionsAllWindowsHelp">Include tabs from all Chrome windows</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsNotificationsTitle">Notifications</h2>
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="showNotifications">
+            <span data-i18n="optionsNotifications">Show notifications</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsShortcuts">Keyboard Shortcuts</h2>
+        <p class="section-desc" data-i18n="optionsShortcutsDesc">Customize in Chrome settings</p>
+        <div class="shortcut-info">
+          <div class="shortcut-item">
+            <kbd>Alt + C</kbd>
+            <span data-i18n="optionsShortcutCopy">Copy URLs</span>
+          </div>
+          <div class="shortcut-item">
+            <kbd>Alt + V</kbd>
+            <span data-i18n="optionsShortcutPaste">Paste URLs (open in new tabs)</span>
+          </div>
+        </div>
+        <button class="btn btn-secondary" id="openShortcuts" data-i18n="optionsOpenShortcuts">
+          Open Shortcut Settings
+        </button>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" data-i18n="optionsDataManagement">Data Management</h2>
+        <p class="section-desc" data-i18n="optionsDataManagementDesc">Manage settings data</p>
+        <div class="storage-status" id="storageStatus" data-i18n="optionsStorageChecking">
+          Checking storage status...
+        </div>
+        <button class="btn btn-danger" id="resetSettings" data-i18n="optionsReset">
+          Reset Settings
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Pastab v1.0.0</p>
+    </footer>
+
+    <div class="notification" id="notification">
+      <span id="notificationText"></span>
+    </div>
+  </div>
+
+  <script src="src/options.js" type="module"></script>
+</body>
+</html>

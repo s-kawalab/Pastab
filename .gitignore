@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Node modules (if added later)
+node_modules/
+
+# Build output
+dist/
+*.zip
+
+# Local settings
+.claude/

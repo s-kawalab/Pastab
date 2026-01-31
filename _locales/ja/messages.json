@@ -1,0 +1,288 @@
+{
+  "extensionName": {
+    "message": "Pastab - タブURL一括コピー＆ペースト",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "開いているタブのURLをまとめてコピー・ペーストできる拡張機能",
+    "description": "Extension description"
+  },
+  "commandCopyUrls": {
+    "message": "すべてのタブURLをコピー",
+    "description": "Copy URLs command description"
+  },
+  "commandPasteUrls": {
+    "message": "URLを新しいタブで開く",
+    "description": "Paste URLs command description"
+  },
+  "popupTitle": {
+    "message": "Pastab",
+    "description": "Popup title"
+  },
+  "tabCount": {
+    "message": "$COUNT$ 個のタブ",
+    "description": "Tab count display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "copyButton": {
+    "message": "コピー",
+    "description": "Copy button text"
+  },
+  "pasteButton": {
+    "message": "ペースト",
+    "description": "Paste button text"
+  },
+  "formatLabel": {
+    "message": "形式:",
+    "description": "Format label"
+  },
+  "formatText": {
+    "message": "テキスト",
+    "description": "Text format option"
+  },
+  "formatTextTitle": {
+    "message": "テキスト+タイトル",
+    "description": "Text with title format option"
+  },
+  "formatMarkdown": {
+    "message": "Markdown",
+    "description": "Markdown format option"
+  },
+  "formatHtml": {
+    "message": "HTML",
+    "description": "HTML format option"
+  },
+  "formatJson": {
+    "message": "JSON",
+    "description": "JSON format option"
+  },
+  "formatCustom": {
+    "message": "カスタム",
+    "description": "Custom format option"
+  },
+  "formatTextFull": {
+    "message": "テキスト（URLのみ）",
+    "description": "Text format full"
+  },
+  "formatTextTitleFull": {
+    "message": "テキスト（タイトル + URL）",
+    "description": "Text with title format full"
+  },
+  "formatHtmlFull": {
+    "message": "HTML（リンク形式）",
+    "description": "HTML format full"
+  },
+  "formatJsonFull": {
+    "message": "JSON（開発者向け）",
+    "description": "JSON format full"
+  },
+  "formatMarkdownFull": {
+    "message": "Markdown（リスト形式）",
+    "description": "Markdown format full"
+  },
+  "optionsSettings": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "optionsTitle": {
+    "message": "Pastab 設定",
+    "description": "Options page title"
+  },
+  "optionsDefaultAction": {
+    "message": "デフォルト動作",
+    "description": "Default action section"
+  },
+  "optionsDefaultActionDesc": {
+    "message": "拡張機能アイコンをクリックした時の動作",
+    "description": "Default action description"
+  },
+  "optionsShowMenu": {
+    "message": "メニューを表示",
+    "description": "Show menu option"
+  },
+  "optionsImmediateCopy": {
+    "message": "すぐにコピー",
+    "description": "Immediate copy option"
+  },
+  "optionsImmediatePaste": {
+    "message": "すぐにペースト",
+    "description": "Immediate paste option"
+  },
+  "optionsCopySettings": {
+    "message": "コピー対象",
+    "description": "Copy settings section"
+  },
+  "optionsHighlightedOnly": {
+    "message": "選択したタブのみコピー",
+    "description": "Copy highlighted tabs only option"
+  },
+  "optionsHighlightedOnlyHelp": {
+    "message": "Ctrl/Cmdキーを押しながらタブをクリックして選択できます",
+    "description": "Highlighted only help text"
+  },
+  "optionsAllWindows": {
+    "message": "全ウィンドウのタブを含める",
+    "description": "Include all windows option"
+  },
+  "optionsAllWindowsHelp": {
+    "message": "現在のウィンドウだけでなく、すべてのChromeウィンドウが対象になります",
+    "description": "All windows help text"
+  },
+  "optionsDefaultFormat": {
+    "message": "出力形式",
+    "description": "Default format section"
+  },
+  "optionsDefaultFormatDesc": {
+    "message": "URLをコピーする際のフォーマット",
+    "description": "Default format description"
+  },
+  "optionsCustomTemplate": {
+    "message": "カスタムテンプレート",
+    "description": "Custom template section"
+  },
+  "optionsCustomTemplateDesc": {
+    "message": "使える変数: $url（URL）, $title（タイトル）, $date（日付）",
+    "description": "Custom template description"
+  },
+  "optionsPreview": {
+    "message": "プレビュー:",
+    "description": "Preview label"
+  },
+  "optionsPreviewTitle": {
+    "message": "サンプルページ",
+    "description": "Preview sample title"
+  },
+  "optionsNotificationsTitle": {
+    "message": "通知",
+    "description": "Notifications section title"
+  },
+  "optionsNotifications": {
+    "message": "コピー/ペースト完了時に通知を表示",
+    "description": "Show notifications option"
+  },
+  "optionsShortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Shortcuts section"
+  },
+  "optionsShortcutsDesc": {
+    "message": "Chromeの設定画面でカスタマイズできます",
+    "description": "Shortcuts description"
+  },
+  "optionsShortcutCopy": {
+    "message": "URLをコピー",
+    "description": "Copy shortcut description"
+  },
+  "optionsShortcutPaste": {
+    "message": "URLをペースト（新しいタブで開く）",
+    "description": "Paste shortcut description"
+  },
+  "optionsOpenShortcuts": {
+    "message": "ショートカット設定を開く",
+    "description": "Open shortcuts button"
+  },
+  "optionsDataManagement": {
+    "message": "データ管理",
+    "description": "Data management section"
+  },
+  "optionsDataManagementDesc": {
+    "message": "設定データの管理",
+    "description": "Data management description"
+  },
+  "optionsStorageChecking": {
+    "message": "ストレージの状態を確認中...",
+    "description": "Storage checking message"
+  },
+  "optionsStorageHealthy": {
+    "message": "ストレージは正常です（sync + local）",
+    "description": "Storage healthy message"
+  },
+  "optionsStoragePartial": {
+    "message": "一部のストレージのみ利用可能（$1）",
+    "description": "Storage partial message"
+  },
+  "optionsStorageError": {
+    "message": "ストレージが利用できません - 設定が保存されない可能性があります",
+    "description": "Storage error message"
+  },
+  "optionsReset": {
+    "message": "設定を初期化",
+    "description": "Reset button"
+  },
+  "optionsResetConfirm": {
+    "message": "すべての設定を初期状態に戻しますか？",
+    "description": "Reset confirmation"
+  },
+  "optionsResetDone": {
+    "message": "設定を初期化しました",
+    "description": "Reset done message"
+  },
+  "optionsSaved": {
+    "message": "設定を保存しました",
+    "description": "Settings saved message"
+  },
+  "optionsSaveFailed": {
+    "message": "設定の保存に失敗しました",
+    "description": "Settings save failed message"
+  },
+  "notificationNoTabs": {
+    "message": "コピーするタブがありません",
+    "description": "No tabs to copy"
+  },
+  "notificationCopied": {
+    "message": "$1件のURLをコピーしました",
+    "description": "URLs copied notification"
+  },
+  "notificationCopyFailed": {
+    "message": "コピーに失敗しました",
+    "description": "Copy failed notification"
+  },
+  "notificationClipboardEmpty": {
+    "message": "クリップボードが空です",
+    "description": "Clipboard empty notification"
+  },
+  "notificationNoUrls": {
+    "message": "URLが見つかりませんでした",
+    "description": "No URLs found message"
+  },
+  "notificationOpened": {
+    "message": "$1件のタブを開きました",
+    "description": "Tabs opened notification"
+  },
+  "notificationPasteFailed": {
+    "message": "ペーストに失敗しました",
+    "description": "Paste failed notification"
+  },
+  "notificationCopyTitle": {
+    "message": "Pastab",
+    "description": "Notification title for copy"
+  },
+  "notificationCopyMessage": {
+    "message": "$COUNT$ 個のURLをコピーしました",
+    "description": "Notification message for copy",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "notificationPasteTitle": {
+    "message": "Pastab",
+    "description": "Notification title for paste"
+  },
+  "notificationPasteMessage": {
+    "message": "$COUNT$ 個のURLを開きました",
+    "description": "Notification message for paste",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  }
+}
