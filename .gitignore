@@ -15,5 +15,6 @@ dist/
 # Local settings
 .claude/
 
-# Store assets (Chrome Web Store submission files)
-store/
+# Store files (Chrome Web Store submission files)
+store/*
+!store/assets/

@@ -8,11 +8,15 @@
 
 **Copy all your tabs. Open them anywhere.**
 
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/jmbimplgcbhihifdidnpkdlechjkeegl)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](#installation)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](#)
 
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Privacy](#privacy)
+[Features](#features) • [Install](#installation) • [Usage](#usage) • [Privacy](#privacy)
+
+---
+
+<img src="store/assets/screenshot-1280x800.png" alt="Pastab - Copy & Paste Tab URLs" width="720">
 
 </div>
 
@@ -76,7 +80,11 @@ Ever needed to **save all your browser tabs** and reopen them later? Or **share 
 
 ### Chrome Web Store
 
-Coming soon...
+<a href="https://chromewebstore.google.com/detail/jmbimplgcbhihifdidnpkdlechjkeegl">
+  <img src="store/assets/promo-tile-small-440x280.png" alt="Available on Chrome Web Store" width="330">
+</a>
+
+**[Install Pastab from the Chrome Web Store](https://chromewebstore.google.com/detail/jmbimplgcbhihifdidnpkdlechjkeegl)**
 
 ### Manual Installation
 
